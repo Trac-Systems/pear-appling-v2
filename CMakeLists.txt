@@ -6,18 +6,18 @@ project(pear_appling C CXX ASM)
 
 add_pear_appling(
   pear_appling
-  ID "<z32-key>"
-  NAME "<string>"
-  VERSION 1.0.0
-  AUTHOR "<string>"
-  DESCRIPTION "<string>"
+  ID "6y6ipdm9wanepy7tcii8hu1cixwbzchskwtc9pg1czjayr7f564y"
+  NAME "TracDoom"
+  VERSION 0.1.0
+  AUTHOR "Trac Systems UG"
+  DESCRIPTION "TracDoom"
 
-  MACOS_IDENTIFIER <namespace>
-  MACOS_CATEGORY <category>
-  MACOS_SIGNING_IDENTITY <id>
+  MACOS_IDENTIFIER trac.systems.tracdoom
+  MACOS_CATEGORY public.app-category.games
+  MACOS_SIGNING_IDENTITY "-"
 
-  WINDOWS_SIGNING_SUBJECT "<string>"
-  WINDOWS_SIGNING_THUMBPRINT <sha1>
+  WINDOWS_SIGNING_SUBJECT "-"
+  WINDOWS_SIGNING_THUMBPRINT 0000000000000000000000000000000000000000
 
-  LINUX_CATEGORY <category>
+  LINUX_CATEGORY Game
 )
