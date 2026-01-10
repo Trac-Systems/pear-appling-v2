@@ -7,10 +7,9 @@ Template repository for creating Pear applings.
 Replace the placeholders in [`CMakeLists.txt`](CMakeLists.txt) with appropriate values and then build the appling:
 
 ```console
-npm i -g bare-make
 npm i
-bare-make generate
-bare-make build
+npx bare-make generate
+npx bare-make build
 ```
 
 ## License
