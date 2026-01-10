@@ -6,7 +6,7 @@ project(pear_appling C CXX ASM)
 
 add_pear_appling(
   pear_appling
-  ID "6y6ipdm9wanepy7tcii8hu1cixwbzchskwtc9pg1czjayr7f564y"
+  ID "6dd8972db087ad75419a0b554f6ea1fb22223ba1f2c4845441e0788af30ef37d"
   NAME "TracDoom"
   VERSION 0.1.0
   AUTHOR "Trac Systems UG"
