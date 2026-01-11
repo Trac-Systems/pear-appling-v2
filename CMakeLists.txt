@@ -4,6 +4,10 @@ find_package(cmake-pear REQUIRED PATHS node_modules/cmake-pear NO_DEFAULT_PATH)
 
 project(pear_appling C CXX ASM)
 
+if(WIN32)
+  add_compile_options(-Wno-nonportable-include-path -Wno-error=nonportable-include-path)
+endif()
+
 if(APPLE)
   set(TRAC_PLATFORM_PATH "Library/Application Support/TracDoom/pear")
 elseif(WIN32)
