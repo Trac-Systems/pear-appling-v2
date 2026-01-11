@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
 
-find_package(cmake-pear REQUIRED PATHS node_modules/cmake-pear)
+find_package(cmake-pear REQUIRED PATHS node_modules/cmake-pear NO_DEFAULT_PATH)
 
 project(pear_appling C CXX ASM)
 
