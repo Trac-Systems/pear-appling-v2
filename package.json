@@ -1,18 +1,18 @@
-{
-  "private": true,
-  "name": "pear-appling",
-  "description": "Template repository for creating Pear applings",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holepunchto/pear-appling.git"
-  },
-  "author": "Holepunch",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/holepunchto/pear-appling/issues"
-  },
-  "homepage": "https://github.com/holepunchto/pear-appling#readme",
-  "devDependencies": {
-    "cmake-pear": "github:Trac-Systems/cmake-pear-v2#5e59983"
-  }
+﻿{
+    "private":  true,
+    "name":  "pear-appling",
+    "description":  "Template repository for creating Pear applings",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/holepunchto/pear-appling.git"
+                   },
+    "author":  "Holepunch",
+    "license":  "Apache-2.0",
+    "bugs":  {
+                 "url":  "https://github.com/holepunchto/pear-appling/issues"
+             },
+    "homepage":  "https://github.com/holepunchto/pear-appling#readme",
+    "devDependencies":  {
+                            "cmake-pear":  "file:../cmake-pear-v2"
+                        }
 }
