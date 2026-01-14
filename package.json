@@ -13,7 +13,7 @@
              },
     "homepage":  "https://github.com/holepunchto/pear-appling#readme",
     "devDependencies":  {
-                            "cmake-pear": "github:Trac-Systems/cmake-pear-v2"
+                            "cmake-pear": "github:Trac-Systems/cmake-pear-v2#19fe055"
                         }
 }
 
